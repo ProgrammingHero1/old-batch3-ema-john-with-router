@@ -8,6 +8,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Review from './components/Review/Review';
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
             <Shop></Shop>
           </Route>
           <Route path="/review">
-            
+            <Review></Review>
           </Route>
         </Switch>
       </Router>
